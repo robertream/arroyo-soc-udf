@@ -1,0 +1,13 @@
+[package]
+name = "arroyo-soc-udf"
+version = "0.1.0"
+edition = "2024"
+description = "Security Operations Center User Defined Functions for Arroyo"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/ArroyoSystems/arroyo-soc-udf"
+
+[lib]
+name = "arroyo_soc_udf"
+crate-type = ["cdylib"]
+
+[dependencies]
