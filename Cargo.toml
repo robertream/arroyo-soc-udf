@@ -11,3 +11,6 @@ name = "arroyo_soc_udf"
 crate-type = ["cdylib"]
 
 [dependencies]
+
+[dev-dependencies]
+libloading = "0.8"

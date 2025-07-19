@@ -10,7 +10,7 @@ Most UDF tests should be unit tests, located near the code that they test.
 
 ## Implementation Steps
 
-- [ ] Step 1: Initialize a new Rust crate for the UDF (`arroyo-soc-udf`)
+- [X] Step 1: Initialize a new Rust crate for the UDF (`arroyo-soc-udf`)
   - cargo init for an Arroyo UDF plugin dynamic library
   - Same license file as Arroyo is present
   - Create `.github/workflows/ci.yml` to build the dynamic library
